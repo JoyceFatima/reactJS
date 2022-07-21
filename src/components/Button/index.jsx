@@ -1,7 +1,7 @@
 import "./styles.css";
 
-export const Button = () => {
-  const { text, onClick, disabled } = this.props;
+export const Button = (props) => {
+  const { text, onClick, disabled } = props;
   return (
     <button className="button" onClick={onClick} disabled={disabled}>
       {text}
